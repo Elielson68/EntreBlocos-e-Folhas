@@ -34,5 +34,10 @@ namespace HeneGames.DialogueSystem
 
             rb2D.velocity = new Vector2(horizontal * velocity, vertical * velocity);
         }
+
+        private void OrEnter2D(Collider2D collision)
+        {
+            Debug.Log($"AAAAAAA: {collision.gameObject.name}");
+        }
     }
 }
