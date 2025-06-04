@@ -4,14 +4,18 @@ using UnityEngine;
 
 namespace HeneGames.DialogueSystem
 {
-    public class Movement2D : MonoBehaviour
+    public class Movement : MonoBehaviour
     {
+        public float velocity = 2f;
+        public bool StartMoveEnable;
+        public bool MoveEnable { get; set; } = true;
         float horizontal;
         float vertical;
         Rigidbody2D rb2D;
 
         private void Start()
         {
+            MoveEnable = StartMoveEnable;
             rb2D = GetComponent<Rigidbody2D>();
         }
 
@@ -23,7 +27,12 @@ namespace HeneGames.DialogueSystem
 
         private void FixedUpdate()
         {
-            rb2D.velocity = new Vector2(horizontal * 10f, vertical * 10f);
+            if (MoveEnable is false)
+            {
+                return;
+            }
+
+            rb2D.velocity = new Vector2(horizontal * velocity, vertical * velocity);
         }
     }
 }

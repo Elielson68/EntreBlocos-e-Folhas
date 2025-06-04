@@ -27,4 +27,14 @@ public class MobController : MonoBehaviour
 
         transform.DOMoveX(PositionsToMove[PositionToMove].position.x, velocity).SetEase(curveMove).OnComplete(MoveMob);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("entrou aqui");
+        if (collision.collider.tag == "Player")
+        {
+            Debug.Log("Colidiu com o player!");
+            Destroy(collision.collider.gameObject);
+        }
+    }
 }
