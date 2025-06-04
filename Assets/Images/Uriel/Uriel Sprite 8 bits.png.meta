@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Uriel Sprite 8 bits_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 237
+        width: 155
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feb0736b8a5f514a8b5b91a24499a81
+      internalID: 1768326683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uriel Sprite 8 bits_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 237
+        width: 145
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7d170f9a74c4848ae2f7adde023457
+      internalID: -899648086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uriel Sprite 8 bits_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0bbf55c2517a4e937488284dee099
+      internalID: -95383084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Uriel Sprite 8 bits_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 7
+        width: 150
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8169576b14813ee47ac0a663625f0a35
+      internalID: -1075735492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +216,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Uriel Sprite 8 bits_0: 1768326683
+      Uriel Sprite 8 bits_1: -899648086
+      Uriel Sprite 8 bits_2: -95383084
+      Uriel Sprite 8 bits_3: -1075735492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
