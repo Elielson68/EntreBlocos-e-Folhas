@@ -1265,19 +1265,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.size
-      value: 1
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: "Mas o que...?!\r"
+      value: "Ent\xE3o deu certo?? Voc\xEA realmente veio!\r"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: In this sentence, the door opens.
+      value: "Quem \xE9 voc\xEA? Onde eu estou?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].sentence
-      value: Well, I really don't have anything else to say, good bye
+      value: "Desculpe trazer voc\xEA assim de forma repentina, mas precisamos de
+        ajuda.Estou machucado e preciso me recuperar, Farir me ajude a sentar.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[3].sentence
+      value: "Primeiramente, seja bem vindo ao \xC9den, eu me chamo Uriel. O que
+        voc\xEA achou do lugar \xE0 sua volta? M\xE1gico, n\xE9?\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[4].sentence
+      value: "Sim. \xC9 estranho, eu me sinto bem aqui, me sinto...diferente. Calmo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[5].sentence
+      value: "Estamos em um local sagrado, um peda\xE7o do \xC9den onde seres m\xE1gicos
+        e nativos vivem em harmonia, respirando o ar e sentindo a paz do ambiente.
+        Pelo menos costumava ser assim...."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[6].sentence
+      value: "Costumava? O que quer dizer com isso? Me sinto t\xE3o bem!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[7].sentence
+      value: "Nosso para\xEDso encontra-se amea\xE7ado por uma criatura chamada \"V\xF3rtex\",
+        uma entidade que surgiu e de repente come\xE7ou a corromper nosso mundo com
+        algo poderoso\r\nque n\xE3o conseguimos compreender. Ele \xE9 o motivo de
+        eu estar assim, machucado, com um sentimento vazio...\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[8].sentence
+      value: Acho que sei como se sente... apesar de nem estar machucado
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[9].sentence
+      value: "Voc\xEA precisa nos ajudar Kael, precisamos nos livrar desse mal que
+        afeta nosso mundo!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[10].sentence
+      value: Kael?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[11].sentence
+      value: "Esse \xE9 o seu nome, n\xE3o sabia?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[12].sentence
+      value: "Mas como? Eu acabei de chegar aqui, n\xE3o sei do que voc\xEA est\xE1
+        falando\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[13].sentence
+      value: "Isso n\xE3o importa agora, precisamos dar um jeito em V\xF3rtex. Voc\xEA
+        nos ajuda?"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].sentenceSound
@@ -1294,15 +1348,59 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: fb7f0a96c0623cf409ede07830d58732, type: 2}
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: fb7f0a96c0623cf409ede07830d58732, type: 2}
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: fb7f0a96c0623cf409ede07830d58732, type: 2}
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[3].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[4].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[5].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[6].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[7].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[8].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[9].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[10].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[11].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[12].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
+    - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
+      propertyPath: sentences.Array.data[13].dialogueCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.size
       value: 0
