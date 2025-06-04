@@ -30,7 +30,6 @@ public class MobController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("entrou aqui");
         if (collision.collider.tag == "Player")
         {
             Debug.Log("Colidiu com o player!");
