@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 264
+        width: 133
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e86566b9568f148a6554f80b5013d6
+      internalID: -1681448493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 264
+        width: 138
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f7b66ba899d9e43a619cb9f01e774e
+      internalID: 1985661231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 265
+        width: 140
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385e9f90a30aa1f408611a6998160e57
+      internalID: 370941996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 140
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74ce1733c04eff45a4e1c0eda26b727
+      internalID: -1041669739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 21
+        width: 148
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d75fc0a423c1b94a81b9563d1b69007
+      internalID: 1769493619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Sprite 8 bits_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 22
+        width: 139
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cd97f00c666b6458ced880fd78f574
+      internalID: -869733886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Luna Sprite 8 bits_0: -1681448493
+      Luna Sprite 8 bits_1: 1985661231
+      Luna Sprite 8 bits_2: 370941996
+      Luna Sprite 8 bits_3: -1041669739
+      Luna Sprite 8 bits_4: 1769493619
+      Luna Sprite 8 bits_5: -869733886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
