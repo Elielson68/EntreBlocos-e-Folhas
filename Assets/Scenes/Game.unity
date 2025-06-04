@@ -123,6 +123,83 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &12830406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 12830407}
+  - component: {fileID: 12830408}
+  m_Layer: 0
+  m_Name: "Sa\xEDda Timeline"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &12830407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12830406}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 176551295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &12830408
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12830406}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 7ef050e8dcd02c6419b4d2f771e2f6e1, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -3797445312521487667, guid: dd851b219e131c54eb0cb76032a82997, type: 2}
+    value: {fileID: 1715037353}
+  - key: {fileID: 2189058397265910208, guid: dd851b219e131c54eb0cb76032a82997, type: 2}
+    value: {fileID: 691413342}
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 2189058397265910208, guid: 42bae64cc2c58a445ad821706a36ada1, type: 2}
+    value: {fileID: 691259512}
+  - key: {fileID: -9093184354026471878, guid: 42bae64cc2c58a445ad821706a36ada1, type: 2}
+    value: {fileID: 691413342}
+  - key: {fileID: 4930333848044041167, guid: 42bae64cc2c58a445ad821706a36ada1, type: 2}
+    value: {fileID: 1715037353}
+  - key: {fileID: 4386311798246482492, guid: 42bae64cc2c58a445ad821706a36ada1, type: 2}
+    value: {fileID: 387173890}
+  - key: {fileID: 2189058397265910208, guid: 2e1e1cad0b815d5438ec00835673e783, type: 2}
+    value: {fileID: 691259512}
+  - key: {fileID: -9093184354026471878, guid: 2e1e1cad0b815d5438ec00835673e783, type: 2}
+    value: {fileID: 691413342}
+  - key: {fileID: 4930333848044041167, guid: 2e1e1cad0b815d5438ec00835673e783, type: 2}
+    value: {fileID: 1715037353}
+  - key: {fileID: 4386311798246482492, guid: 2e1e1cad0b815d5438ec00835673e783, type: 2}
+    value: {fileID: 1068136621}
+  - key: {fileID: 2189058397265910208, guid: 7ef050e8dcd02c6419b4d2f771e2f6e1, type: 2}
+    value: {fileID: 498561565}
+  - key: {fileID: -9093184354026471878, guid: 7ef050e8dcd02c6419b4d2f771e2f6e1, type: 2}
+    value: {fileID: 1811485842}
+  - key: {fileID: 4386311798246482492, guid: 7ef050e8dcd02c6419b4d2f771e2f6e1, type: 2}
+    value: {fileID: 1910187717}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &87554622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -549,8 +626,8 @@ Transform:
   m_LocalScale: {x: 0.028237201, y: 0.048691597, z: 0.05800339}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1811485841}
-  - {fileID: 498561561}
+  - {fileID: 1555210959}
+  - {fileID: 12830407}
   m_Father: {fileID: 9064032245768200813}
   m_LocalEulerAnglesHint: {x: 0.23, y: 90, z: 0}
 --- !u!64 &176551297
@@ -1504,12 +1581,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498561560}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.001419201, y: 0.001419336, z: 0.7071054, w: 0.7071053}
-  m_LocalPosition: {x: 0.38, y: 0, z: -0.1}
-  m_LocalScale: {x: 0.015, y: 0.026250001, z: 0.026250001}
+  m_LocalRotation: {x: -0.0014192015, y: 0.0014193654, z: 0.7071054, w: 0.7071053}
+  m_LocalPosition: {x: 0.467, y: 0, z: -0.1}
+  m_LocalScale: {x: 0.015, y: 0.026249997, z: 0.02625}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 176551295}
+  m_Father: {fileID: 1555210959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &498561562
 BoxCollider:
@@ -3913,6 +3990,39 @@ Transform:
   - {fileID: 1233731057}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1555210958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555210959}
+  m_Layer: 0
+  m_Name: Personagens
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1555210959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555210958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.065, y: -0, z: 0.0986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 498561561}
+  - {fileID: 1811485841}
+  m_Father: {fileID: 176551295}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567239997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,13 +4672,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811485840}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0014192015, y: 0.0014193356, z: 0.7071054, w: 0.7071053}
-  m_LocalPosition: {x: 0.38, y: 0.1, z: -0.1}
-  m_LocalScale: {x: 0.03, y: 0.05173149, z: 0.025183978}
+  m_LocalRotation: {x: -0.0014192015, y: 0.0014193654, z: 0.7071054, w: 0.7071053}
+  m_LocalPosition: {x: 0.465, y: 0.1, z: -0.1}
+  m_LocalScale: {x: 0.03, y: 0.051731486, z: 0.025183976}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1910187716}
-  m_Father: {fileID: 176551295}
+  m_Father: {fileID: 1555210959}
   m_LocalEulerAnglesHint: {x: 0, y: 3, z: 0}
 --- !u!95 &1811485842
 Animator:
@@ -4960,27 +5070,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Size.x
-      value: 4.5623097
+      value: 7.197844
       objectReference: {fileID: 0}
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Size.y
-      value: 2.7800012
+      value: 3.222898
       objectReference: {fileID: 0}
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Size.z
-      value: 2.3002741
+      value: 2.3002744
       objectReference: {fileID: 0}
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Center.x
-      value: 0.79075265
+      value: -0.52701443
       objectReference: {fileID: 0}
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Center.y
-      value: 0.00000008719464
+      value: 0.22144859
       objectReference: {fileID: 0}
     - target: {fileID: 880292023814025696, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Center.z
-      value: -0.62452984
+      value: -0.62554145
       objectReference: {fileID: 0}
     - target: {fileID: 6011988201399623206, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: m_Name
@@ -5052,19 +5162,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.size
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].sentence
-      value: Luna, que bom que conseguiu!
+      value: "Ugoliant! Precisamos salv\xE1-la, sem ela o vale n\xE3o sobreviver\xE1!"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].sentence
-      value: "Uriel! Seu bra\xE7o!"
+      value: "Olhe! Talvez podemos derrub\xE1-la atrav\xE9s daqueles troncos!"
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].sentence
-      value: "Eu estou bem, n\xE3o se preocupe. Veja! Kael finalmente est\xE1 aqui"
+      value: "Certo, n\xE3o temos tempo a perder, mas cuidado com as outras criaturas
+        corrompidas, elas s\xE3o seres do vale corrompidos pelo poder do V\xF3rtex.
+        N\xE3o podemos machuc\xE1-las, mesmo que elas nos ataquem."
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[3].sentence
@@ -5132,15 +5244,15 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[0].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+      objectReference: {fileID: 11400000, guid: 45c2fc48b8a996643ba4ff97dee07593, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[1].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 45c2fc48b8a996643ba4ff97dee07593, type: 2}
+      objectReference: {fileID: 11400000, guid: 874896fd04be8364fbaa6be46072e582, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[2].dialogueCharacter
       value: 
-      objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
+      objectReference: {fileID: 11400000, guid: 45c2fc48b8a996643ba4ff97dee07593, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: sentences.Array.data[3].dialogueCharacter
       value: 
@@ -5187,7 +5299,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 34413cac50d87f64bb4a6732ec9f010c, type: 2}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: startDialogueEvent.m_PersistentCalls.m_Calls.Array.size
@@ -5208,11 +5320,11 @@ PrefabInstance:
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1844126323}
+      objectReference: {fileID: 736186572}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1910187717}
+      objectReference: {fileID: 736186572}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -5291,11 +5403,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8557568673631317014, guid: cc0b3ff4467379548b7df5f7e83dd6a2, type: 3}
       propertyPath: endDialogueEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
