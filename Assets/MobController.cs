@@ -33,7 +33,7 @@ public class MobController : MonoBehaviour
         if (collision.collider.tag == "Player")
         {
             Debug.Log("Colidiu com o player!");
-            Destroy(collision.collider.gameObject);
+            //Destroy(collision.collider.gameObject);
         }
     }
 }
