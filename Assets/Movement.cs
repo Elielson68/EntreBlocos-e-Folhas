@@ -12,17 +12,21 @@ namespace HeneGames.DialogueSystem
         float horizontal;
         float vertical;
         Rigidbody2D rb2D;
+        Animator _animator;
 
         private void Start()
         {
             MoveEnable = StartMoveEnable;
             rb2D = GetComponent<Rigidbody2D>();
+            _animator = GetComponent<Animator>();
         }
 
         private void Update()
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
+
+
         }
 
         private void FixedUpdate()
@@ -35,9 +39,14 @@ namespace HeneGames.DialogueSystem
             rb2D.velocity = new Vector2(horizontal * velocity, vertical * velocity);
         }
 
-        private void OrEnter2D(Collider2D collision)
+        private void OnTriggerStay2D(Collider2D collision)
         {
-            Debug.Log($"AAAAAAA: {collision.gameObject.name}");
+            if (Input.GetKeyDown(KeyCode.F) && collision.tag == "Tronco")
+            {
+                _animator.SetTrigger("atack");
+                collision.enabled = false;
+                collision.transform.GetChild(0).gameObject.SetActive(true);
+            }
         }
     }
 }
